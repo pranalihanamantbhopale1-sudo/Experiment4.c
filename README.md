@@ -19,7 +19,7 @@ To implement the **Greedy Method to solve problems of Optimal Merge Pattern** an
 
 ## Program
 
-```c
+```
 #include <stdio.h> 
 
 void optimalMerge(int files[], int n){ 
@@ -65,3 +65,18 @@ int main(){
 
     return 0; 
 }
+```
+---
+## Output ![output_knapsack](1000012022.jpg) 
+---
+## Applications 
+Applications
+1.Used in data compression techniques like Huffman coding.
+2.Applied in file management systems for merging sorted runs.
+3.Useful in external sorting where multiple sorted lists must be combined.
+4.Applied in compiler design and database query optimization.
+5.Used in minimizing total computation time in distributed systems.
+6.Helpful in network optimization and bandwidth allocation problems.
+---
+##Conclusion:
+From this experiment, I learned how the Greedy approach minimizes merge costs by merging the smallest files first. Implementing the Optimal Merge Pattern deepened my understanding of heap-based optimization and how local choices can lead to globally optimal results.
